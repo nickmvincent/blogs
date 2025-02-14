@@ -18,11 +18,11 @@ Some other small notes
 - A new proposed bill in California could have major implications for dataset documentation, see [Tweet](https://x.com/bauerkahan/status/1887661766240514334) from Assemblymember Rebecca Bauer-Kahan
 - A new OpenAI [model spec](https://openai.com/index/sharing-the-latest-model-spec/) provides a ton of insight into how the lab is handling thorny governance issues (though it doesn't mention training data)
 - The Collective Intelligence Project launched [Global Dialogues](https://globaldialogues.ai/) to understand "fears, dreams, hopes, and attitudes people have about AI"
-- I was excited to see Sam Altman's [blog post](https://blog.samaltman.com/three-observations) on AI discuss changes to the balance in power between labor and capital, which I expect will become a very urgent issues (there will be more connections between issues facing "content ecosystems" and labor groups)
+- I was excited to see Sam Altman's [blog post](https://blog.samaltman.com/three-observations) on AI discuss changes to the balance in power between labor and capital, which I expect will become a very urgent issue (there will be more connections between issues facing "content ecosystems" and labor groups)
 
 
 In case you missed it:
-- last week, I wrote several newsletters about the tensions in data protection (and impact of DeepSeek's model releases). 
+- Last week, I wrote several newsletters about current tensions in data use and "data protection" (and impact of DeepSeek's model releases). 
   - [AI Labs Should Open Source Data Protection Technologies](https://dataleverage.substack.com/p/ai-labs-could-open-source-data-protection) 
   - [Live by the free-content-for-training sword, die by the free-content-for-training sword](https://dataleverage.substack.com/p/live-by-the-free-content-for-training)
   - I was also interviewed by [Business Insider](https://www.businessinsider.com/openai-deepseek-ai-model-distillation-training-data-copyright-karma-2025-1)
