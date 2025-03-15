@@ -2,17 +2,21 @@
 
 A file in which I attempt to organize and link together common ideas that appear in my work (spanning academic papers to blog posts). One goal of maintaining this file is to experiment in moving more of my notes into semi-public spaces, and to create some accountability in tracking which ideas I've prioritized at various points in time.
 
-For each I record a one-sentence summary of the idea, a set of bullet points with further information, and then links to any longer posts or papers I've written that directly or indirectly touch on the idea. After enough gardening, this file might be useful for a kind of "graph view" into my writing.
+For each "idea object", I aim to record a one-sentence summary of the idea, a set of bullet points with further information, and then links to any longer posts or papers I've written that directly or indirectly touch on the idea. After enough gardening, this file might be useful for a kind of "graph view" into my writing.
 
 The current version has a bit of CV / resume vibe (i.e. excessively focused on my own outputs). In the future, I hope to link this with efforts to curate much larger lists of other people's work and plug this into a much, much bigger graph.
+
+## Public AI institutions can act as data appraisers
+
+A public body that trains and deploys AI systems can also provide a public service by sharing estimates of data value that allow data markets to operate much more efficiently.
 
 ## AI "Outputs" and "Actions" Stem from Human "Stamps of Approval"
 
 Every AI output (e.g., a sequence of tokens from an LLM) or "action" maps to some set of *human stamps of approval*
 
 - We might rephrase this as a conjecture: for a given example of a "successful AI output" (a snippet of code that solves a software engineer's problem, a reworded email that's more polite, a funny poem that makes your friends laugh), we could, given enough time and resources, produce a list of "top ten people whose stamps of approval made this possible". With even more time and resources, we might produce a list of n people that were *needed* for the output -- if those people never gave their stamp of approval, the output would have hit some threshold of difference
-  - Technical bounds on how accurately or efficiently we could produce such lists will depend on the model and a number of environmental conditions, but we quickly prove this to be possible for small models.
-  - As models get bigger we need to do more loose guessing, but conceptually still possible, and we should be able to do better than random.
+  - Technical bounds on how accurately or efficiently we could produce such lists will depend on the model and a number of environmental conditions, but we can quickly prove this to be possible for small models.
+  - As models get bigger we need to be looser in our estimation, but doing this should conceptually still be possible, and we should be able to do better than random.
 - This conjecture is extremely important. It suggests, first of all, that "synthetic" data in the LLM context could also be called "processed" or "laundered" data, as the human stamps of approval still exist but the synthesizing process obfuscates our ability to reproduce them. Say we produce synthetic data by prompting an LLM, then get very similar outputs from our "synthetically-trained LLM". We can still trace these outputs back to individual people contributing code, etc., but it's just harder now.
 
 Posts:
@@ -45,11 +49,13 @@ corollary to HCNames: we should also name eval sets in a way that includes an es
 
 When models threaten the labor leverage of a group (e.g., academics who perform lit reviews become less valuable), there is some ability to "hold out" by refusing to evaluate the model. This gives a buffer before it can be deployed.
 
+- post: https://dataleverage.substack.com/p/evaluation-data-leverage-advances
+
 ## Unaddressed valuation question: how to allocate $ between people who contributed to train vs test?
 
-If true random sample, it's equal
+We should write down a principled to way think about allocating $ or credit between people who contribute to a train set or a test set.
 
-But if it's not a true random sample...
+- If they don't choose (and they probably shouldn't so the holdout set is clean -- if people know they're being evaluated, they might act differently), it should be equal?
 
 
 ## Concerns with Framing of "Synthetic Data"-focused work
@@ -103,9 +109,7 @@ Frequent retrain, can easily opt out...
 
 For now, every AI process still has a human who invoked it or kicked off the job, and they probably have some moral agency.
 
-## The Moral Weight of Actuation
-
-When you hook your model to a machine or API, there's moral weight in that choice and you take on responsibility.
+- Corollary: The Moral Weight of Actuation. When you hook your model to a machine or API, there's moral weight in that choice and you take on responsibility.
 
 
 ## All Models Are Wrong, Some Are Useful, There's Always a Model in "Prod"
