@@ -1,4 +1,4 @@
-## Four recent academic papers on impact of LLM on Wikipedia:
+# A short collection of 4 academic papers on impact of LLM on Wikipedia:
 
 Wagner, C., & Jiang, L. (2025). Death by AI: Will large language models diminish Wikipedia?. Journal of the Association for Information Science and Technology.
 https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.24975?af=R

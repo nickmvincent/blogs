@@ -1,5 +1,5 @@
 
-## Spring 2025 CMPT 419 Highlights
+# Spring 2025 CMPT 419 Highlights
 
 This Spring 2025 semester, students came up with a number of exciting projects in the area of human and data-centred AI. This newsletter provides some project highlights! (Keeping with the themes of the course -- in which we heavily discussed data governance, markets, sharing preferences, and provenance -- these are from students who opted in).
 

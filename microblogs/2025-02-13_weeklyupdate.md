@@ -1,4 +1,4 @@
-## Content Ecosystems and AI, some links highlights
+# Content Ecosystems and AI, some links highlights from February 2025
 
 Sharing some recent writing, and an exciting set of articles I came across this week
 that have major implications for "content ecosystems and AI".
