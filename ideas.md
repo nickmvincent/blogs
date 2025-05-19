@@ -10,6 +10,9 @@ The current version has a bit of CV / resume vibe (i.e. excessively focused on m
 
 A public body that trains and deploys AI systems can also provide a public service by sharing estimates of data value that allow data markets to operate much more efficiently.
 
+Posts:
+- Newsletter: https://dataleverage.substack.com/p/public-ai-data-appraisal-and-data
+
 ## AI "Outputs" and "Actions" Stem from Human "Stamps of Approval"
 
 Every AI output (e.g., a sequence of tokens from an LLM) or "action" maps to some set of *human stamps of approval*
@@ -22,6 +25,7 @@ Every AI output (e.g., a sequence of tokens from an LLM) or "action" maps to som
 Posts:
 - Tweet: https://x.com/nickmvincent/status/1879589740640719241
   - 1/2: "Problem w/ "synthetic data" term is that (I posit) there's *always* some human action you can trace a "synthetic document" to. Problem w/ "AI agents" term is that there's *always* some humans who did the actuation and kick-off who hold moral agency. Obfuscating either is bad." 2/2: "Of course using the terms with caveats totally makes sense. But I think there's increasing body of public discussions (including news coverage, blogs, micro-blogs, sometimes papers) that currently serves to obfuscate the underlying human labour and human responsibility."
+- Newsletter: TODO
 
 
 ## Hypermaploom: Importance of Maps and Looms Metaphor
@@ -38,7 +42,8 @@ Posts:
 If we are going to include parameter sizes in model names, I think it would also be a good idea to include estimates of the number of human contributors, perhaps separated into pre-training and post-training?
 
 Posts:
-- https://x.com/nickmvincent/status/1829215803985801605
+- Tweet: https://x.com/nickmvincent/status/1829215803985801605
+- Microblog: https://github.com/nickmvincent/blogs/blob/main/microblogs/2025-05-17_three_terms.md
 
 
 ## EvalName: We should also name evaluation sets in a way that emphasized human contributions
@@ -49,14 +54,13 @@ corollary to HCNames: we should also name eval sets in a way that includes an es
 
 When models threaten the labor leverage of a group (e.g., academics who perform lit reviews become less valuable), there is some ability to "hold out" by refusing to evaluate the model. This gives a buffer before it can be deployed.
 
-- post: https://dataleverage.substack.com/p/evaluation-data-leverage-advances
+- Newsletter: https://dataleverage.substack.com/p/evaluation-data-leverage-advances
 
 ## Unaddressed valuation question: how to allocate $ between people who contributed to train vs test?
 
 We should write down a principled to way think about allocating $ or credit between people who contribute to a train set or a test set.
 
 - If they don't choose (and they probably shouldn't so the holdout set is clean -- if people know they're being evaluated, they might act differently), it should be equal?
-
 
 ## Concerns with Framing of "Synthetic Data"-focused work
 
@@ -75,7 +79,7 @@ Posts:
 
 ## Letting People Put Weights on Their Contributions to Unlock More Intelligent Models
 
-Let me look at my old data contributions and say, this is good, this is bad.
+Let me look at my old data contributions and say, "this is good", or "this is bad".
 
 - This exists to a degree because the practing of "weighing stuff" is inherent in institutional and community publishing practices (conference papers, upvoted posts, etc.) but tons of nuance missed
 - Few options to do this with explicit feedback data
@@ -101,11 +105,10 @@ Never retrain, can opt out
 - people "disappear" from the timeline
 - weird blips
 
-Frequent retrain, never opt out...
-Frequent retrain, can easily opt out...
+Extend this!
 
 
-## On AI Agents
+## On AI Agents and Moral Agency
 
 For now, every AI process still has a human who invoked it or kicked off the job, and they probably have some moral agency.
 
@@ -122,6 +125,7 @@ Tweet:
 
 ## Eventually all ML will become human subjects research?
 
+...
 
 ## Measuring if something is really a public good (how clubby is it)?
 
@@ -136,6 +140,7 @@ Important for students taking e.g. HCAI or Fairness class and want to practices 
 
 ## LLM-assisted "search" could be more reproducible than "real" search?
 
+...
 
 ## More examples land value-style tax for "knowledge spaces" and "information spaces"?
 
