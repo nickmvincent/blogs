@@ -25,7 +25,8 @@ Every AI output (e.g., a sequence of tokens from an LLM) or "action" maps to som
 Posts:
 - Tweet: https://x.com/nickmvincent/status/1879589740640719241
   - 1/2: "Problem w/ "synthetic data" term is that (I posit) there's *always* some human action you can trace a "synthetic document" to. Problem w/ "AI agents" term is that there's *always* some humans who did the actuation and kick-off who hold moral agency. Obfuscating either is bad." 2/2: "Of course using the terms with caveats totally makes sense. But I think there's increasing body of public discussions (including news coverage, blogs, micro-blogs, sometimes papers) that currently serves to obfuscate the underlying human labour and human responsibility."
-- Newsletter: TODO
+- Newsletter: https://dataleverage.substack.com/p/each-instance-of-ai-utility-stems
+  - Part 2 in a 3 part series
 
 
 ## Hypermaploom: Importance of Maps and Looms Metaphor
@@ -44,11 +45,8 @@ If we are going to include parameter sizes in model names, I think it would also
 Posts:
 - Tweet: https://x.com/nickmvincent/status/1829215803985801605
 - Microblog: https://github.com/nickmvincent/blogs/blob/main/microblogs/2025-05-17_three_terms.md
+- corollary to HCNames: we should also name eval sets in a way that includes an estimate of the number of human contributors.
 
-
-## EvalName: We should also name evaluation sets in a way that emphasized human contributions
-
-corollary to HCNames: we should also name eval sets in a way that includes an estimate of the number of human contributors.
 
 ## Eval leverage
 
@@ -89,7 +87,6 @@ Let me look at my old data contributions and say, "this is good", or "this is ba
 
 When we conduct basic data scaling experiments, even without any explicit "collective action simulations", we get insight into the potential leverage of groups of size X.
 
-
 ## Lots of value in writing out the extremes of data flow
 
 It would be useful to really write out some of the likely consequences of very "extreme data flow scenarios", such as "What if we never retrain any models, and nobody can ever opt out of data inclusion", or "what if we frequently retrain models, and everyone can easily change their opt out preferences every day".
@@ -114,13 +111,13 @@ For now, every AI process still has a human who invoked it or kicked off the job
 
 - Corollary: The Moral Weight of Actuation. When you hook your model to a machine or API, there's moral weight in that choice and you take on responsibility.
 
+Lightly discussed in https://dataleverage.substack.com/p/each-instance-of-ai-utility-stems
 
 ## All Models Are Wrong, Some Are Useful, There's Always a Model in "Prod"
 
 All models are wrong, some are useful, but there's always a model running in prod. There's some "model" being "run" right now and every day we don't change it has some moral cost as well.
 
 Tweet:
-
 
 
 ## Eventually all ML will become human subjects research?
@@ -138,10 +135,6 @@ Tweet:
 Important for students taking e.g. HCAI or Fairness class and want to practices in industry
 
 
-## LLM-assisted "search" could be more reproducible than "real" search?
-
-...
-
 ## More examples land value-style tax for "knowledge spaces" and "information spaces"?
 
 Harberger tax on intellectual property
@@ -156,13 +149,11 @@ Core challenge remains
 LVT: https://en.wikipedia.org/wiki/Land_value_tax
 Harberger tax, aka COST: https://en.wikipedia.org/wiki/Harberger_Tax (Common Ownership Self-assessed Tax)
 
-
 ## Need to incentivize an append-focused lens on citation practice.
 
 Citation lists as static artifacts don’t make (much) sense. 
 If we agree more citations are better (e.g., we should have unlimited space for citations) why can't people vote to add citations or just "this is relevant" afterwords. including follow up work! People who add citations to some existing work and get social approval should some credit anyway!
 Downsides: if there's no pressure along the lines of the "this is going to be archival", authors will be sloppier. I think it's worth it, though.
-
 
 ## Doing too much as data poisoning against causal inferrers
 
