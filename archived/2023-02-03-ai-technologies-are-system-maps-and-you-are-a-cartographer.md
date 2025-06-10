@@ -1,24 +1,19 @@
-[
+---
+title: "Ai Technologies Are System Maps And You Are A Cartographer"
+subtitle: "Mapping a Seaside Village"
+date: 2023-02-03
+original_url: "https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer"
+---
 
-![vincent-guth-NUiQpGnj9rI-unsplash.jpg](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F043a6d43-b307-45af-85d7-e8976e6ee0ae_4000x2670.jpeg "vincent-guth-NUiQpGnj9rI-unsplash.jpg")
+> **Original Substack post:** [https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer](https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer)
 
-
-
-](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F043a6d43-b307-45af-85d7-e8976e6ee0ae_4000x2670.jpeg)
+[![vincent-guth-NUiQpGnj9rI-unsplash.jpg](https://substack-post-media.s3.amazonaws.com/public/images/043a6d43-b307-45af-85d7-e8976e6ee0ae_4000x2670.jpeg "vincent-guth-NUiQpGnj9rI-unsplash.jpg")](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F043a6d43-b307-45af-85d7-e8976e6ee0ae_4000x2670.jpeg)
 
 Much of my work is in pursuit of “[data dignity](https://www.radicalxchange.org/concepts/data-dignity/)”, an idea that stems in part from scholars arguing that we should sometimes think of “[data as labor](https://www.aeaweb.org/articles?id=10.1257/pandp.20181003)”. However, the data as labor comparison often elicits quite a bit of pushback. In this post, I’m going to describe a thought experiment regarding cartography and two seaside villages. My hope is that this story can illustrate some theoretical reasons to be hopeful about the potential for collective bargaining [power](https://dl.acm.org/doi/10.1145/3442188.3445885) deriving from data, and I hope to paint an optimistic picture of a path towards AI governance. Throughout this thought experiment, I’ll also make references to Nagaraj and Stern’s Journal of Economic Perspectives 2020 article on the [Economics of Maps](https://www.aeaweb.org/articles?id=10.1257/jep.34.1.196).
 
-[
-
-![martellus-copy-2_med_hr.jpeg](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd872fc29-9907-435f-9929-bec2fe212d9a_1440x824.jpeg "martellus-copy-2_med_hr.jpeg")
-
-
-
-](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd872fc29-9907-435f-9929-bec2fe212d9a_1440x824.jpeg)
+[![martellus-copy-2_med_hr.jpeg](https://substack-post-media.s3.amazonaws.com/public/images/d872fc29-9907-435f-9929-bec2fe212d9a_1440x824.jpeg "martellus-copy-2_med_hr.jpeg")](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd872fc29-9907-435f-9929-bec2fe212d9a_1440x824.jpeg)
 
 Ultimately, no metaphor for “data as X” is perfect (and there's been some great [critiques](https://digifesto.com/2018/12/06/data-isnt-labor-because-using-search-engines-is-really-easy/) of data labor specifically). The scope of human activities that are “data-generating” is vast, and growing. But the comparison with labor, especially map-making labor can be instructive.
-
-## Mapping a Seaside Village
 
 Imagine a seaside village, at some point in time well before satellites, Google Maps, or OpenStreetMap. Many of the residents of the village use boats to fish and travel. It is of great value to the town to map out the coast and places where rocks jut upwards. In the early days of the village, the town council hires a few young people to act as cartographers. These freshly minted cartographers set out to boat, swim, dive, and walk, all in service of recording a first map.
 
@@ -28,7 +23,7 @@ A challenge for the map-makers trying to sell their maps is that, it's not too d
 
 Ultimately, maps have the attributes that put them somewhere between public and club goods. In some cases maps can be made “excludable” – the mapmaker can try to make it hard for any non-paying customers to access and copy the map, but it's a Sisyphean task to do so (requiring, perhaps, a state that will protect intellectual property).
 
-The reason I've laid out this extended story is because I believe the mapping metaphor will be useful in highlighting the distinction between places where mapping labor has leverage and where it does not. This provides a nice conceptual, well, _mapping_ between contexts where data-generators (i.e., tech users, the public) are likely to be able to gain a powerful bargaining position with data users (i.e. tech companies).
+The reason I've laid out this extended story is because I believe the mapping metaphor will be useful in highlighting the distinction between places where mapping labor has leverage and where it does not. This provides a nice conceptual, well, *mapping* between contexts where data-generators (i.e., tech users, the public) are likely to be able to gain a powerful bargaining position with data users (i.e. tech companies).
 
 ## Some Places are Calm, and in Other Places Volcanoes Erupt
 
@@ -52,22 +47,16 @@ But a second critique is that all this theorizing is in vain, because collective
 
 ## A Hopeful Note for AI Governance
 
-Most of the public-facing machine learning technologies that are centered in ongoing discussion of AI and society are in the business of mapping disordered systems with physical and social components. Each of these systems can be described in terms of random variables, which vary in their entropy and in other measures of complexity. Arguing from our thought experiment above, I'd argue that many of these technologies are trying to map systems _much closer to our volcano-filled, plate-shifting, eroding region_. Very low entropy systems can be mapped very easily; consider the case of an "AI system" which consists of many if-else code blocks. These are mapped, and that's good!
+Most of the public-facing machine learning technologies that are centered in ongoing discussion of AI and society are in the business of mapping disordered systems with physical and social components. Each of these systems can be described in terms of random variables, which vary in their entropy and in other measures of complexity. Arguing from our thought experiment above, I'd argue that many of these technologies are trying to map systems *much closer to our volcano-filled, plate-shifting, eroding region*. Very low entropy systems can be mapped very easily; consider the case of an "AI system" which consists of many if-else code blocks. These are mapped, and that's good!
 
 The near-term battles around AI systems will probably center how and if we should advance the capabilities of models that are mapping very dynamic and complex systems that characterized by variables with greater approximate entropy (has the volcano erupted? We won't know until somebody makes the effort to check!). While it's true that we've already done an unimaginable amount of mapping labor (all the activities performed that have led to the records filling data centers used by Google, Meta, Microsoft, etc.), it's also true that the labor we'll do tomorrow matters.
 
 Time is on our side. New islands are sprouting and the old maps will fade; if the cartographers of the world (all of us) can muster collective action, they’ll have a loud voice going forward. And of course, we can all benefit from an up to date map.
 
-_Please note: this is meant to be a “beta test” of this idea. I’d like to refine, change, or bolster it, with more specific references to the arguments I’m addressing here and more supporting examples. Please let me know what you think!_
+*Please note: this is meant to be a “beta test” of this idea. I’d like to refine, change, or bolster it, with more specific references to the arguments I’m addressing here and more supporting examples. Please let me know what you think!*
 
 Thanks to Vincent Guth and Daan Huttinga for the seaside photos, found via unsplash.com. The Martellus map photo is from the Nagaraj and Stern paper above, originally from www.myoldmaps.com.
 
-Image credits: * https://unsplash.com/photos/NUiQpGnj9rI! * https://unsplash.com/photos/Su27UvdJrgU * https://www.myoldmaps.com/_Media/martellus-copy-2_med_hr.jpeg
+Image credits: \* https://unsplash.com/photos/NUiQpGnj9rI! \* https://unsplash.com/photos/Su27UvdJrgU \* https://www.myoldmaps.com/\_Media/martellus-copy-2\_med\_hr.jpeg
 
-[
-
-![daan-huttinga-Su27UvdJrgU-unsplash.jpg](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc88f3f3-f75a-4bfa-8120-12e43e311d24_3744x5616.jpeg "daan-huttinga-Su27UvdJrgU-unsplash.jpg")
-
-
-
-](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc88f3f3-f75a-4bfa-8120-12e43e311d24_3744x5616.jpeg)
+[![daan-huttinga-Su27UvdJrgU-unsplash.jpg](https://substack-post-media.s3.amazonaws.com/public/images/bc88f3f3-f75a-4bfa-8120-12e43e311d24_3744x5616.jpeg "daan-huttinga-Su27UvdJrgU-unsplash.jpg")](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc88f3f3-f75a-4bfa-8120-12e43e311d24_3744x5616.jpeg)

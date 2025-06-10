@@ -1,16 +1,17 @@
-[
+---
+title: "Bing Rewards For The Ai Age"
+subtitle: "Introduction"
+date: 2023-03-30
+original_url: "https://dataleverage.substack.com/p/bing-rewards-for-the-ai-age"
+---
+
+> **Original Substack post:** [https://dataleverage.substack.com/p/bing-rewards-for-the-ai-age](https://dataleverage.substack.com/p/bing-rewards-for-the-ai-age)
 
 ![photo of Gardens by the Bay, Singapore](https://images.unsplash.com/photo-1517570123306-d58896657b2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80 "photo of Gardens by the Bay, Singapore")
 
-
-
-](https://images.unsplash.com/photo-1517570123306-d58896657b2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80)
-
-_The plants in the_ [_Gardens by the Bay_](https://en.wikipedia.org/wiki/Gardens_by_the_Bay) _evoke a sense of flourishing-by-design; photo by_ [_Victor from Unsplash_](https://unsplash.com/photos/c53HvA-blYQ)_._
+*The plants in the [Gardens by the Bay](https://en.wikipedia.org/wiki/Gardens_by_the_Bay) evoke a sense of flourishing-by-design; photo by [Victor from Unsplash](https://unsplash.com/photos/c53HvA-blYQ).*
 
 In this post, I’ll propose an approach for addressing three distinct concerns facing the actors responsible for generative AI systems: the computational costs facing AI operators, the concern that Generative AI systems may erode their own foundations by reducing traffic to platforms where training data is created, and the lack of credit given to individual users and communities for their data contributions. Our proposal is to give people credits, akin to the Bing search engine’s “Rewards”, for their past and future data contributions, which can be used to query expensive AI systems. All users would receive some replenishing supply of credits, in accordance with the collective nature of the vast data underlying AI, with additional credit given to notable data contributions. This approach can simultaneously address the incentives faced by AI-operating firms, online platforms, and individual users. We discuss the potential for a relatively lightweight system – that is quite similar to existing features of Bing, Dall·E 2, and cloud computing – to enable inclusive governance of AI systems.
-
-## Introduction
 
 Generative AI (GAI) systems like ChatGPT and now Bing Chat continue to dominate public discourse around computing and tech more generally. Not only do firms need to contend with the increased costs of new GAI systems, but Microsoft has [decided](https://www.wsj.com/articles/microsoft-puts-caps-on-new-bing-usage-after-ai-chatbot-offered-unhinged-responses-39c3252f) to shorten the maximum conversation length with Bing Chat as a quick way to constrain the outputs. At the same, concerns around the “[paradox of reuse](https://nmvg.mataroa.blog/blog/the-paradox-of-reuse-language-models-edition/)” remain relevant: large-language models (LLMs) and other systems use data from platforms like Wikipedia, Reddit, and StackExchange to fuel their impressive capabilities, but may reduce traffic to these very platforms and cut off contributions. Finally, there is an open debate about whether data creators are being fairly compensated for their role in fueling generative AI. All three of these issues are high-stakes, and failing to address any individual issue could cause serious sustainability issues for the new AI ecosystem.
 
@@ -62,9 +63,9 @@ One primary concern that would likely arise with this system is that it adds add
 
 While credit-gating LLM queries could create inequities in access to knowledge (by e.g. imposing more search time costs on people who don’t have as many credits or means to pay subscription fees), we assume that existing search engines would continue to operate (and research would continue to improve them). Furthermore, individual platforms can still support search and recommendation; presumably Wikipedia’s native search engine will provide a baseline for equitable knowledge access, given Wikipedia’s unique incentives.
 
-Another concern is that this system could be seen as indirectly putting a price tag on Wikipedia edits or StackOverflow answers. This is best addressed by handling individual credits and community credits separately. When an individual provides direct feedback, they earn direct credit. While contributing to any of the platforms that are major data sources can earn individuals additional credit, credits should be allocated to Wikipedia itself or to GitHub itself, and then governed in a hierarchical fashion (so GitHub users might decide to pay prominent contributors directly, whereas Wikipedia might exchange credits for hosting costs or to support new AI technologies that improve Wikipedia directly). One particularly promising way to extend the credit system could be to give online communities the ability to spend their communally held credits on _votes_. Thus, by allocating credits to Wikipedia (or to a community of educators, or artists, etc.), the community could spend those credits to vote on how they’d like generative AI systems to be governed or constrained.
+Another concern is that this system could be seen as indirectly putting a price tag on Wikipedia edits or StackOverflow answers. This is best addressed by handling individual credits and community credits separately. When an individual provides direct feedback, they earn direct credit. While contributing to any of the platforms that are major data sources can earn individuals additional credit, credits should be allocated to Wikipedia itself or to GitHub itself, and then governed in a hierarchical fashion (so GitHub users might decide to pay prominent contributors directly, whereas Wikipedia might exchange credits for hosting costs or to support new AI technologies that improve Wikipedia directly). One particularly promising way to extend the credit system could be to give online communities the ability to spend their communally held credits on *votes*. Thus, by allocating credits to Wikipedia (or to a community of educators, or artists, etc.), the community could spend those credits to vote on how they’d like generative AI systems to be governed or constrained.
 
-Another major concern we foresee is that the program could be seen as giving out pittances. The closest real-world analogue is Microsoft Rewards, a program that gives users a $5 gift card for 380-1520 web queries (i.e., nothing close to a true “wage” in any context). Certainly, while we laid out many challenges that this approach could solve, in the short term it is probably _not_ going to meaningfully impact economic inequality measures nor drastically increase the number of people on Earth earning a living wage. If people can exchange credits for cash, perhaps some people could add an additional income stream akin to crowdwork (which is itself commonly problematic in terms of [wages](https://doi.org/10.1145/3476060) and working conditions). Ultimately, this kind of approach must be implemented alongside ambitious state action to tackle poverty and drive economic growth.
+Another major concern we foresee is that the program could be seen as giving out pittances. The closest real-world analogue is Microsoft Rewards, a program that gives users a $5 gift card for 380-1520 web queries (i.e., nothing close to a true “wage” in any context). Certainly, while we laid out many challenges that this approach could solve, in the short term it is probably *not* going to meaningfully impact economic inequality measures nor drastically increase the number of people on Earth earning a living wage. If people can exchange credits for cash, perhaps some people could add an additional income stream akin to crowdwork (which is itself commonly problematic in terms of [wages](https://doi.org/10.1145/3476060) and working conditions). Ultimately, this kind of approach must be implemented alongside ambitious state action to tackle poverty and drive economic growth.
 
 ## Who Would Be Responsible for Implementing This Credit System?
 
@@ -72,16 +73,12 @@ The easiest approach would be for firms themselves to implement this kind of sys
 
 We can compare this idea with existing [Microsoft Rewards](https://www.microsoft.com/en-us/rewards):
 
-- people earn points that can be converted to cash value (gift cards)
-    
-- points can be donated to a joint cause
-    
-- The actual “conversion rate”:
-    
-    - 5-20 points per search
-        
-    - 7600 points = $5 gift card (1000 points = about 66 cents). The exact rate varies by gift card.
-        
+* people earn points that can be converted to cash value (gift cards)
+* points can be donated to a joint cause
+* The actual “conversion rate”:
+
+  + 5-20 points per search
+  + 7600 points = $5 gift card (1000 points = about 66 cents). The exact rate varies by gift card.
 
 However, another option could be to scaffold this system via data-focused industrial policy. If a governmental body were to institute some kind of “Data Relations Board” (see e.g. this [proposal](https://www.berggruen.org/ideas/articles/a-data-dividend-that-works-steps-toward-building-an-equitable-data-economy/) for a Data Relations Board in California), this board could set standards for credit allocation. In fact, the easiest way for a state entity to set standards in the space would be for that entity to operate their own “nationalized” LLM, akin to a state-affiliated supermarket cooperative that competes on prices. Then, the Data Relations Board can set standards for labor practices in this space. Ideally, this could allow for a high-level of data sharing and rapid innovation, instead of a paradigm in which individual organizations are incentivized to “hide away” data that could be support the public interest.
 
@@ -105,7 +102,7 @@ Let’s consider Bob the Bing user. Bob receives 100 credits at the start of the
 
 Bob can provide feedback on a query to earn a credit. This feedback undergoes some kind of spam detection, and not all queries allow for feedback. Let’s assume it takes about 5 minutes to provide a good feedback record, so Bob can earn 1000 credits for providing 12 pieces of feedback (i.e., a rate of $10 per hour). By consistently providing feedback, a user can build a reputation and greatly increase the credits they earn, similar to the vision laid out by [Kittur et al](https://doi.org/10.1145/2441776.2441923). As Bob builds a reputation for providing good faith feedback, the rate increases, but presumably the amount of feedback needed will drop so eventually we’d expect Bob to spend much less time providing feedback but earn many more credits. Some users might spend 5 minutes a week so they can have an extra 100 queries, others might spend an hour or two per week to cash out for an extra $520 - $1040 a year.
 
-Bob links his GitHub account (he shares some small Python side projects, and reports issues in major scientific software repositories). His account meets an “active user criteria”, so he earns an extra 50 credits per month. Bob does _not_ directly earn credits for gameable metrics like number of individual commits. This system is still somewhat gameable, as people may try to do the bare minimum activity to meet the criteria, but presumably some fraction of users who make a GitHub account and try to do some basic level of commits will actually become real contributors; same with Wikipedia, StackExchange, etc. In other words, with a well-designed activity criteria, even people trying to game the system will end up contributing to these systems (and of course, sometimes the most impactful thing will be to get one new power user to join the platform, rather than getting 100 users who make just a single contribution). Furthermore, the credits from historical contributions will be much lower than credits from providing active feedback, so those who want to earn credits have a path of least resistance: they’ll provide active feedback directly to the AI operator rather than trying to “game” GitHub.
+Bob links his GitHub account (he shares some small Python side projects, and reports issues in major scientific software repositories). His account meets an “active user criteria”, so he earns an extra 50 credits per month. Bob does *not* directly earn credits for gameable metrics like number of individual commits. This system is still somewhat gameable, as people may try to do the bare minimum activity to meet the criteria, but presumably some fraction of users who make a GitHub account and try to do some basic level of commits will actually become real contributors; same with Wikipedia, StackExchange, etc. In other words, with a well-designed activity criteria, even people trying to game the system will end up contributing to these systems (and of course, sometimes the most impactful thing will be to get one new power user to join the platform, rather than getting 100 users who make just a single contribution). Furthermore, the credits from historical contributions will be much lower than credits from providing active feedback, so those who want to earn credits have a path of least resistance: they’ll provide active feedback directly to the AI operator rather than trying to “game” GitHub.
 
 At the end of the month, Microsoft makes a broad estimate of the impact of GitHub data on new capabilities. GitHub itself offers a voting platform (perhaps similar to, or using, something like [PolicyKit](https://policykit.org/)), and Bob participates in voting on how the credits (some converted into cash), are distributed (or down the line, if the credits should be used to vote directly on how generative AI systems should be deployed).
 

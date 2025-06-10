@@ -1,6 +1,12 @@
-# AI Artist or AI Art Thief? Innovation, Public Mandates, and the Case for Talking in Terms of Leverage
+---
+title: "Ai Artist Or Ai Art Thief Innovation Public Mandates And The Case For Talking In Terms Of Leverage"
+date: 2022-12-16
+original_url: "https://dataleverage.substack.com/p/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage"
+---
 
-![Rembrandt Christ in the Storm on the Lake of Galilee.jpg](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe217b807-4bde-4641-b4c2-9e76aa09411d_1024x1273.jpeg)
+> **Original Substack post:** [https://dataleverage.substack.com/p/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage](https://dataleverage.substack.com/p/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage)
+
+![Rembrandt Christ in the Storm on the Lake of Galilee.jpg](https://substack-post-media.s3.amazonaws.com/public/images/e217b807-4bde-4641-b4c2-9e76aa09411d\_1024x1273.jpeg "Rembrandt Christ in the Storm on the Lake of Galilee.jpg")
 
 The public debate over AI has seriously heated up in the wake of new advances in the design and deployment of large generative AI models. In particular, artists have [begun](https://vmst.io/@selzero/109512557990367884) to [protest](https://arstechnica.com/information-technology/2022/12/artstation-artists-stage-mass-protest-against-ai-generated-artwork/) the use of models that generate artwork. Meanwhile, software developers and writers seem to be a bit more [split](https://news.ycombinator.com/item?id=33998112) in [their](https://www.nature.com/articles/d41586-022-04383-z) [opinions](https://www.techtarget.com/searchsoftwarequality/news/252528379/ChatGPT-writes-code-but-wont-replace-developers) on models that generate code or prose (though a developing [lawsuit](https://www.theverge.com/2022/11/8/23446821/microsoft-openai-github-copilot-class-action-lawsuit-ai-copyright-violation-training-data) suggests a critical faction exists on the code front too).
 

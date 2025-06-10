@@ -1,10 +1,13 @@
-[
+---
+title: "Two-Sentence Definition"
+subtitle: "Measuring the Alignment of AI Systems Based on their Data Pipelines"
+date: 2023-03-02
+original_url: "https://dataleverage.substack.com/p/measuring-relative-ai-alignment-in-terms-of-data-pipelines"
+---
 
-![File:Paul Cézanne - Country House by a River - Google Art Project.jpg](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9007dd6d-95a5-491a-bbc9-01bbde94db09_480x599.jpeg "File:Paul Cézanne - Country House by a River - Google Art Project.jpg")
+> **Original Substack post:** [https://dataleverage.substack.com/p/measuring-relative-ai-alignment-in-terms-of-data-pipelines](https://dataleverage.substack.com/p/measuring-relative-ai-alignment-in-terms-of-data-pipelines)
 
-
-
-](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9007dd6d-95a5-491a-bbc9-01bbde94db09_480x599.jpeg)
+![File:Paul Cézanne - Country House by a River - Google Art Project.jpg](https://substack-post-media.s3.amazonaws.com/public/images/9007dd6d-95a5-491a-bbc9-01bbde94db09\_480x599.jpeg "File:Paul Cézanne - Country House by a River - Google Art Project.jpg")
 
 In this post, I propose an approach to score AI systems in terms of how well they align with the interests of different groups, by measuring the ability for data creators to reason about and configure the systems' underlying "data pipelines". This is meant to provide a path towards measuring alignment in a manner that supports [plurality](https://www.plurality.institute/), i.e. these scores can help us predict when AI systems are likely to "facilitate cooperation and flourishing across a diversity of social groups".
 
@@ -12,13 +15,13 @@ This post was primarily inspired by discussions kicked off by OpenAI’s recent 
 
 I’ve used the term "AI" in the title because this is the term being used in ongoing discussions, and I think this ship has definitively sailed (full disclosure: I also used the term in my [dissertation](https://arch.library.northwestern.edu/concern/generic_works/jq085k38d?locale=en), so I suppose I’ve already bought in a bit). More specifically, I am talking about computing systems that rely on some combination of distinct datasets for training, evaluation, and/or calibration. The discussion is especially relevant to “generative AI” that produces text and images, like ChatGPT and StableDiffusion, but was originally influenced by earlier work looking at search and recommendation.
 
-The post will be structured as such: a two sentence definition, followed by a two-paragraph definition with more details, followed by an "FAQ" with even more details (the first version will be an IFAQ, because these are questions I _imagine_ might be frequent).
+The post will be structured as such: a two sentence definition, followed by a two-paragraph definition with more details, followed by an "FAQ" with even more details (the first version will be an IFAQ, because these are questions I *imagine* might be frequent).
 
 # Two-Sentence Definition
 
 An AI system is more aligned with a coalition if members (1) know how their data contributions flow to that system, (2) can reason about how changes to data flow might impact AI capabilities, and (3) have agency to reconfigure these data flows.
 
-By measuring the alignment of various systems to various coalitions, we can understand alignment in terms of _concentration_: some systems are aligned to just a few individuals, others to very broad groups, and others to specific subgroups.
+By measuring the alignment of various systems to various coalitions, we can understand alignment in terms of *concentration*: some systems are aligned to just a few individuals, others to very broad groups, and others to specific subgroups.
 
 # Two-Paragraph Definition
 
@@ -27,8 +30,6 @@ We can measure the relative alignment of data-dependent systems to the preferenc
 This definition most likely requires a collective approach to data agency — time costs may make it impossible for individual people to make decisions about how individual data records flow to individual firms (providing prohibitively expensive but "technically possible" actions is not agency). Instead, we could support data agency by scaffolding data-mediating organizations. Finally, this definition supports a pluralistic approach to alignment: given there are many distinct coalitions of people in the world, any given system has a variety of alignment scores, and any attempt to produce a single alignment score requires explicitly weighting the preferences of different groups. Instead, we can understand alignment scores as a variable to be used similarly to inequality measurements.
 
 # FAQ
-
-## Are there other hidden assumptions here?
 
 There is an assumption that competing organizations and systems will exist. This definition is not particularly useful in an ecosystem dominated by a single player.
 

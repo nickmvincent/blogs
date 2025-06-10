@@ -1,18 +1,19 @@
-[
+---
+title: "Data Leverage Recap December 2022"
+subtitle: "The Last Three Months in Review: What's New and What's Next"
+date: 2023-04-18
+original_url: "https://dataleverage.substack.com/p/data-leverage-recap-december-2022"
+---
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58a3e73f-5147-4fdd-b00e-896b7ce302cb_2614x2268.jpeg)
+> **Original Substack post:** [https://dataleverage.substack.com/p/data-leverage-recap-december-2022](https://dataleverage.substack.com/p/data-leverage-recap-december-2022)
 
+![](https://substack-post-media.s3.amazonaws.com/public/images/58a3e73f-5147-4fdd-b00e-896b7ce302cb\_2614x2268.jpeg "")
 
-
-](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58a3e73f-5147-4fdd-b00e-896b7ce302cb_2614x2268.jpeg)
-
-_The waves never stop; photo from_ [_Unsplash contributor Photoholgic_](https://unsplash.com/photos/RGvwatYi0-Q)_._
+*The waves never stop; photo from [Unsplash contributor Photoholgic](https://unsplash.com/photos/RGvwatYi0-Q).*
 
 This post will be a short review of the blog so far. There’s two goals here: to provide a quick catch up for anyone who’s new to the blog, and to give me a chance to reflect on how these ideas have held up against a barrage of AI product releases, research outputs, and news.
 
 Thanks for reading Data Leverage! Subscribe for free to receive new posts and support my work.
-
-## [**The Paradox of Reuse, Language Models Edition**](https://www.notion.so/Data-Leverage-Recap-December-2022-April-2023-e1faadd001364ca18180995eeadcb223) **(Dec 1, 2022)**
 
 ### Summary
 
@@ -32,7 +33,7 @@ The core argument is this piece (and the similar arguments linked above) rely on
 
 One direction for future work is to use some combination of agent-based modeling and continued empirical investigation to specify the conditions necessary for positive sum outcomes. I’ll definitely be keeping an eye out for more empirical work in this space.
 
-## [**ChatGPT is Awesome and Scary: You Deserve Credit for the Good Parts (and Might Help Fix the Bad Parts)**](https://dataleverage.substack.com/p/chatgpt-is-awesome-and-scary-you-deserve-credit) **(Dec 4, 2022)**
+## **[ChatGPT is Awesome and Scary: You Deserve Credit for the Good Parts (and Might Help Fix the Bad Parts)](https://dataleverage.substack.com/p/chatgpt-is-awesome-and-scary-you-deserve-credit) (Dec 4, 2022)**
 
 ### Summary
 
@@ -50,7 +51,7 @@ I also came across this great [post](https://gist.github.com/veekaybee/6f8885e99
 
 I think there’s a lot of value in learning and sharing as much as we can about the role of data in producing generative AI. Please reach out if you’re interested in collaborating. This will involve hunting down datasheets, advocating for the scientific value of sharing datasheets, and perhaps conducting audits that help us make educated guesses about data usage (e.g., asking ChatGPT a question it can only answer with access to a particular source).
 
-## [**AI Artist or AI Art Thief? Innovation, Public Mandates, and the Case for Talking in Terms of Leverage**](https://dataleverage.substack.com/p/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage) **(Dec 15, 2022)**
+## **[AI Artist or AI Art Thief? Innovation, Public Mandates, and the Case for Talking in Terms of Leverage](https://dataleverage.substack.com/p/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage) (Dec 15, 2022)**
 
 ### Summary:
 
@@ -68,15 +69,15 @@ I’m in the process of iterating on a [website](https://www.datalevers.org/) fo
 
 Another angle for making concrete progress on this issue is through the development of Responsible AI Licenses for Data. If you’re interested, consider getting involved in [RAIL](https://www.licenses.ai/blog/2023/1/17/rail-initiative-call-for-participation).
 
-## [**AI Technologies are System Maps, and You are a Cartographer**](https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer) **(Feb 2, 2023)**
+## **[AI Technologies are System Maps, and You are a Cartographer](https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer) (Feb 2, 2023)**
 
 ## Summary:
 
-Much of my academic work has been at least partially motivated by an argument for thinking of “data as labor”. Here, I make the case that this particular “data as _X_” metaphor can be made even stronger by comparing data generation to cartographic labor. The comparison with map-making can be especially useful for thinking about how time might be on on the side of the data laborer (the world is ever-changing, so over time data leverage grows).
+Much of my academic work has been at least partially motivated by an argument for thinking of “data as labor”. Here, I make the case that this particular “data as *X*” metaphor can be made even stronger by comparing data generation to cartographic labor. The comparison with map-making can be especially useful for thinking about how time might be on on the side of the data laborer (the world is ever-changing, so over time data leverage grows).
 
 ### How the Key Points Hold Up
 
-I’ve been reflecting more on this “Data isn’t labor” [post](https://digifesto.com/2018/12/06/data-isnt-labor-because-using-search-engines-is-really-easy/) from Sebastien Benthell. It makes some compelling arguments against data as labor metaphor in the context of search engines and Google. I think it’s worth discussing the tensions with different data as _X_ metaphors.
+I’ve been reflecting more on this “Data isn’t labor” [post](https://digifesto.com/2018/12/06/data-isnt-labor-because-using-search-engines-is-really-easy/) from Sebastien Benthell. It makes some compelling arguments against data as labor metaphor in the context of search engines and Google. I think it’s worth discussing the tensions with different data as *X* metaphors.
 
 On the technical side, I haven’t seen anything yet that makes me think that data as cartographic labor is completely lacking in predictive value, or in instrumental value as a rallying cry for collective action.
 
@@ -96,15 +97,15 @@ I propose a definition for measuring when an AI system is aligned with a group o
 
 ### How the Key Points Hold Up
 
-I still think this definition has a lot of value to add to ongoing discussions of AI alignment, building “full-consent” generative AI, and thinking about AI in terms of how it serves different groups (i.e., _AI for social good, but social good for whom_).
+I still think this definition has a lot of value to add to ongoing discussions of AI alignment, building “full-consent” generative AI, and thinking about AI in terms of how it serves different groups (i.e., *AI for social good, but social good for whom*).
 
-An open question I remain unsure about is whether it’s useful to frame this as part of “alignment” or something else entirely. There is a growing movement for full-consent AI, and these ideas are much more naturally _aligned_ with this movement than any one “AI Alignment” faction. Let me know what you think about this — is it important to try and insert this idea into the alignment debate, or better to avoid the topic of alignment and talk more about consent and agency?
+An open question I remain unsure about is whether it’s useful to frame this as part of “alignment” or something else entirely. There is a growing movement for full-consent AI, and these ideas are much more naturally *aligned* with this movement than any one “AI Alignment” faction. Let me know what you think about this — is it important to try and insert this idea into the alignment debate, or better to avoid the topic of alignment and talk more about consent and agency?
 
 ### What’s next
 
 I plan to continue developing this definition and trying to find venues and communities that find it useful. I don’t expect any shocking new AI releases to cause me to majorly revise it, but that’s always possible!
 
-## [**Bing Rewards for the AI Age**](https://dataleverage.substack.com/p/bing-rewards-for-the-ai-age) **(Mar 29, 2023)**
+## **[Bing Rewards for the AI Age](https://dataleverage.substack.com/p/bing-rewards-for-the-ai-age) (Mar 29, 2023)**
 
 ### Summary:
 

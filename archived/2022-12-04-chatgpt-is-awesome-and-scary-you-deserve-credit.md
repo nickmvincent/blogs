@@ -1,4 +1,13 @@
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F897f5c2a-0739-4d51-aeb6-8670604c9704_1920x1509.jpeg)
+---
+title: "Chatgpt Is Awesome And Scary You Deserve Credit"
+subtitle: "More on why you're an expert language model trainer"
+date: 2022-12-04
+original_url: "https://dataleverage.substack.com/p/chatgpt-is-awesome-and-scary-you-deserve-credit"
+---
+
+> **Original Substack post:** [https://dataleverage.substack.com/p/chatgpt-is-awesome-and-scary-you-deserve-credit](https://dataleverage.substack.com/p/chatgpt-is-awesome-and-scary-you-deserve-credit)
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/897f5c2a-0739-4d51-aeb6-8670604c9704\_1920x1509.jpeg "")
 
 In the past I've written on the idea that we're all ["Expert Language Model Trainers"](https://www.psagroup.org/blogposts/78). The basic idea: large language models rely on our blog posts, Wikipedia articles, Reddit votes, arXiv papers, and more, so it's very likely that much of the Internet-using population has contributed in some fashion to the training data underlying large language models. Of course, everyone's "marginal impact" is small (most models would be nearly unchanged if just one person's data disappeared), but many people are undoubtedly contributors.
 
@@ -6,17 +15,21 @@ In this post, I'm going to trace the dataset breadcrumbs for the impressive (and
 
 To start, here's a list with all the links I'll discuss in this post:
 
-- [The ChatGPT Blog Post](https://openai.com/blog/chatgpt/]) | Details about ChatGPT
-- [OpenAI's Model Index](https://beta.openai.com/docs/model-index-for-researchers) | Describes the family of "GPT 3.5" models, to which ChatGPT belongs
-- [InstructGPT blog post](https://openai.com/blog/instruction-following) | Details about building InstructGPT, which ChatGPT follows closely
-- [InstructGPT paper](https://arxiv.org/abs/2203.02155) | More details than the blog post
-- [InstructGPT Model Card](https://github.com/openai/following-instructions-human-feedback) | Summary of the training data, and more
-- [CommonCrawl Data](https://commoncrawl.org/the-data) | A key data source
-- [WebText](https://paperswithcode.com/dataset/webtext) | Another key data source, leveraging reddit votes
+* [The ChatGPT Blog Post](https://openai.com/blog/chatgpt/]) | Details about ChatGPT
+* [OpenAI's Model Index](https://beta.openai.com/docs/model-index-for-researchers) | Describes the family of "GPT 3.5" models, to which ChatGPT belongs
+* [InstructGPT blog post](https://openai.com/blog/instruction-following) | Details about building InstructGPT, which ChatGPT follows closely
+* [InstructGPT paper](https://arxiv.org/abs/2203.02155) | More details than the blog post
+* [InstructGPT Model Card](https://github.com/openai/following-instructions-human-feedback) | Summary of the training data, and more
+* [CommonCrawl Data](https://commoncrawl.org/the-data) | A key data source
+* [WebText](https://paperswithcode.com/dataset/webtext) | Another key data source, leveraging reddit votes
+
+## Starting from the ChatGPT Blog Post
 
 Now let's walk through the information we have about the data, to make a rough guess about: (1) whether you deserve some credit (admission of editorial bias: I'm inclined to to say "Yes"), (2) which data sources are particularly important, and (3) what this means for the impact of AI systems like GPT 3.5 on society.
 
 We start with the ChatGPT blog [post](https://openai.com/blog/chatgpt). We learn that the model was trained "using Reinforcement Learning from Human Feedback (RLHF), using the same methods as InstructGPT, but with slight differences in the data collection setup." This points us to the InstructGPT [blog post](https://openai.com/blog/instruction-following), [paper](https://arxiv.org/abs/2203.02155), and [model card](https://github.com/openai/following-instructions-human-feedback). The InstructGPT blog post provides more info about how OpenAI was able to solicit valuable human feedback, i.e. get people to share specifically how they feel out GPT responses (we'll return to this, but first we'll focus on the text data).
+
+## Data Sources in the InstructGPT Model Card
 
 Looking now at the InstructGPT [model card](https://github.com/openai/following-instructions-human-feedback/blob/main/model-card.md), we learn that "InstructGPT models are initialized from GPT-3 models, whose training dataset is composed of text posted to the internet or uploaded to the internet (e.g., books). " Four specific sources are named: [CommonCrawl](https://commoncrawl.org/the-data), Webtext (an expanded version), two internet-based book corpora (one which is perhaps BookCorpus), and English-language Wikipedia. We also learn that for InstructGPT, just 40 labelers participated (and some unknown number of customers who provided ecologically valid prompts).
 
@@ -36,15 +49,21 @@ Finally, the fourth -- and perhaps least surprising -- example in the model card
 
 To summarize so far, if you have: written any high quality text that appeared in the Common Crawl, submitted to Reddit, voted on a link submitted to Reddit, written a book, or edited English Wikipedia, you're almost certainly a contributor to ChatGPT.
 
+## Other Info
+
 We have one other surprising claim about ChatGPT's training... a [tweet](https://twitter.com/elonmusk/status/1599291104687374338) from Elon Musk. Here's the text for posterity:
 
 "Not surprising, as I just learned that OpenAI had access to Twitter database for training. I put that on pause for now. Need to understand more about governance structure & revenue plans going forward. OpenAI was started as open-source & non-profit. Neither are still true."
 
 This suggests yet another avenue for you to have contributed: if you've ever posted any tweets.
 
+## About that Human Feedback
+
 Returning to the ChatGPT blog post, we know a key unique advantage of ChatGPT is access to data produced by first asking people to produce "conversations in which they played both sides—the user and an AI assistant", training an initial model, and then asking AI trainers to compare different chatbot outputs and rank them. In other words these AI trainers were acting as a kind of movie critic for the AI. We could even say these AI trainers were acting like ChatGPT's university-level film studies professor.
 
 You're an AI trainer too -- just more similar to ChatGPT's high school writing teacher (if you've written a few blog posts), history teacher (if you've edited some Wikipedia articles), or pop culture tutor (if you've upvoted submissions on reddit about popular media or been active on Twitter). An understanding of writing, history, and pop culture is critical to even take the film studies class that the trainers working directly with OpenAI provided (and if you're not a fan of film, this whole analogy can work for something like electrical engineering as well).
+
+## Implications
 
 So, if you've made it this far, maybe I've convinced you to give yourself a pat on the back (and to tell your friends and family they deserve a pat on the back, too). What do we do with this argument?
 
@@ -64,6 +83,6 @@ Based on the framework of data leverage, I personally think we can focus our eff
 
 Even if we don't implement a direct profit sharing model, we'll likely want to make the governance approach more transparent. Remember, there's already voting going on. Reddit votes were used to filter the training data. The governance structures that shape peer production on GitHub determined which kinds of code ChatGPT has and has not seen. The policies around Wikipedia contribution determined which historical facts ChatGPT knows. Making it easier to opt in and out of contributing data to language models will make it easier to collectively govern these models, which I think is a broadly popular idea (and an important step towards encoding some kind of "justice" into these systems, assuming we are going to train models on collective output).
 
-(Images in this post: van Goh - [Wikimedia Commons](https://en.wikipedia.org/wiki/Reaper_\(Van_Gogh_series\)#/media/File:Wheat_Field_with_Reaper_and_Sun_\(F617\),_1889.jpg), Always Has Been - [Imgflip](https://imgflip.com/memegenerator/255177692/astronaut-meme-always-has-been-template))
+(Images in this post: van Goh - [Wikimedia Commons](https://en.wikipedia.org/wiki/Reaper_(Van_Gogh_series)#/media/File:Wheat_Field_with_Reaper_and_Sun_(F617),_1889.jpg), Always Has Been - [Imgflip](https://imgflip.com/memegenerator/255177692/astronaut-meme-always-has-been-template))
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd25aa34e-913c-4e97-863f-0dcfc750af1f_888x499.jpeg)
+![](https://substack-post-media.s3.amazonaws.com/public/images/d25aa34e-913c-4e97-863f-0dcfc750af1f\_888x499.jpeg "")

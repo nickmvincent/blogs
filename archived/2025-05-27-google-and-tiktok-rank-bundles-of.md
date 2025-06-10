@@ -1,17 +1,15 @@
-# Google and TikTok rank bundles of information; ChatGPT ranks grains.
-
-Google and others solve our attentional problem by ranking discrete bundles of information, whereas ChatGPT ranks more granular chunks. This lens can help us reason about AI policy.
-
+---
+title: "Google And Tiktok Rank Bundles Of"
+subtitle: "Google and others solve our attentional problem by ranking discrete bundles of information, whereas ChatGPT ranks more granular chunks. This lens can help us reason about AI policy."
+date: 2025-05-27
+original_url: "https://dataleverage.substack.com/p/google-and-tiktok-rank-bundles-of"
 ---
 
-View on substack: [here](https://dataleverage.substack.com/p/google-and-tiktok-rank-bundles-of)
+> **Original Substack post:** [https://dataleverage.substack.com/p/google-and-tiktok-rank-bundles-of](https://dataleverage.substack.com/p/google-and-tiktok-rank-bundles-of)
 
----
+![File:Bonifacio falaises Grain de Sable.jpg](https://substack-post-media.s3.amazonaws.com/public/images/87212bbc-0d14-4869-8670-ece4d5a560b1\_960x762.jpeg "File:Bonifacio falaises Grain de Sable.jpg")
 
-
-*Grain de sable* (the “Grain of sand”) in Corsica. [Wikimedia Commons.](https://commons.wikimedia.org/wiki/File:Bonifacio_falaises_Grain_de_Sable.jpg)
-
-In this post, I want to share some thoughts on a very general model for thinking about a wide variety of “AI”[1](https://dataleverage.substack.com/publish/post/163497933#footnote-1) uses. This post complements a forthcoming FAccT paper ([preprint](https://arxiv.org/abs/2405.14614) on ArXiv) on operationalizing and measuring “attentional agency”[2](https://dataleverage.substack.com/publish/post/163497933#footnote-2), focusing on one aspect of the paper: understanding many different types of platforms as all performing highly related ranking tasks allows us to view old and new AI in the same light.
+In this post, I want to share some thoughts on a very general model for thinking about a wide variety of “AI”[1](#footnote-1) uses. This post complements a forthcoming FAccT paper ([preprint](https://arxiv.org/abs/2405.14614) on ArXiv) on operationalizing and measuring “attentional agency”[2](#footnote-2), focusing on one aspect of the paper: understanding many different types of platforms as all performing highly related ranking tasks allows us to view old and new AI in the same light.
 
 In short, it can be useful to think of a wide variety of platforms — including Google, TikTok, and ChatGPT, as mentioned in the title, but also Spotify, Amazon, YouTube, and more — as delivering the same fundamental service. They are all taking some **bundles of information**, ranking these bundles, and delivering them to us to consume.
 
@@ -35,12 +33,12 @@ Critically, by ranking chunks (tokens) and not bundles (webpages, songs), we bre
 
 Our paper discusses a number of policy implications (and hopefully, a future blog post will unpack the specific suggestions in our paper). One key idea is that we might measure the level of attentional agency afforded by platforms, in terms of whether they are prioritizing *what the platform thinks users want* (i.e., using all the information and algorithmic capabilities available to the platform, what’s their best case regarding the perfect set of links or videos to deliver) vs. what other “advocates” want users to see (advertisements, content being pushed by other users, public service announcements from a government agency). This could be extremely useful as a framework to force early transparency around the incorporation of advertising or persuasive content into generative AI.
 
-The goal of this post is just to introduce this set of ideas. We very much welcome feedback and discussion\! While our paper introduces a particular set of definitions, we note that there are many [related](https://arxiv.org/abs/2107.10939) [ideas](https://arxiv.org/abs/2406.18682) in this space around aligning both recommender systems and generative AI systems, and we hope this work can contribute to that broader conversation.
+The goal of this post is just to introduce this set of ideas. We very much welcome feedback and discussion! While our paper introduces a particular set of definitions, we note that there are many [related](https://arxiv.org/abs/2107.10939) [ideas](https://arxiv.org/abs/2406.18682) in this space around aligning both recommender systems and generative AI systems, and we hope this work can contribute to that broader conversation.
 
-[1](https://dataleverage.substack.com/publish/post/163497933#footnote-anchor-1)
+[1](#footnote-anchor-1)
 
 Why am I still scare quoting “AI”? For some related thoughts, you might also enjoy this draft microblog: “[Some Semi-Serious Naming Proposals to Improve AI Discourse](https://github.com/nickmvincent/blogs/blob/main/microblogs/2025-05-17_three_terms.md)”.
 
-[2](https://dataleverage.substack.com/publish/post/163497933#footnote-anchor-2)
+[2](#footnote-anchor-2)
 
 The [paper](https://arxiv.org/abs/2405.14614) focuses on measuring how different digital platforms — broadly defined to include anything from Google to TikTok to ChatGPT — afford (1) users the ability to “pull” information they want and (2) advocates (like organizations that buy advertising or government agencies pushing public service announcements) the ability to “push” information to users.
