@@ -1,10 +1,10 @@
 ---
 title: "Tipping Points For Content Ecosystems"
-subtitle: "Our AI design choices in 2024 could preclude "Powerful AI" in 2030."
+subtitle: "Our AI design choices in 2024 could preclude 'Powerful AI in 2030."
 date: 2025-02-12
 original_url: "https://dataleverage.substack.com/p/tipping-points-for-content-ecosystems"
 ---
-
+''
 > **Original Substack post:** [https://dataleverage.substack.com/p/tipping-points-for-content-ecosystems](https://dataleverage.substack.com/p/tipping-points-for-content-ecosystems)
 
 *This post was co-written by Nick Vincent, Jacob Thebault-Spieker, and Johanna Desprez.*

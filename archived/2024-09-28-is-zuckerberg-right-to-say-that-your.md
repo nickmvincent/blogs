@@ -1,8 +1,8 @@
 ---
-title: "Is Zuckerberg Right To Say That Your"
-subtitle: "Examining the Meta CEO's claim that the "individual work of most creators isn’t valuable enough for it to matter" in the context of AI training."
+title: Is Zuckerberg Right To Say That Your
+subtitle: Examining the Meta CEO's claim that the "individual work of most creators isn’t valuable enough for it to matter" in the context of AI training.
 date: 2024-09-28
-original_url: "https://dataleverage.substack.com/p/is-zuckerberg-right-to-say-that-your"
+original_url: https://dataleverage.substack.com/p/is-zuckerberg-right-to-say-that-your
 ---
 
 > **Original Substack post:** [https://dataleverage.substack.com/p/is-zuckerberg-right-to-say-that-your](https://dataleverage.substack.com/p/is-zuckerberg-right-to-say-that-your)

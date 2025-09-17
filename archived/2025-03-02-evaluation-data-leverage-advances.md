@@ -1,10 +1,10 @@
 ---
-title: "Evaluation Data Leverage Advances"
-subtitle: "Research agents and increasingly general reasoning models open the door for immense "evaluation data leverage"."
+title: Evaluation Data Leverage Advances
+subtitle: Research agents and increasingly general reasoning models open the door for immense "evaluation data leverage".
 date: 2025-03-02
-original_url: "https://dataleverage.substack.com/p/evaluation-data-leverage-advances"
+original_url: https://dataleverage.substack.com/p/evaluation-data-leverage-advances
 ---
-
+''
 > **Original Substack post:** [https://dataleverage.substack.com/p/evaluation-data-leverage-advances](https://dataleverage.substack.com/p/evaluation-data-leverage-advances)
 
 This post has two related goals:
