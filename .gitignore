@@ -1,1 +1,6 @@
 .obsidian/
+.import-cache/
+__pycache__/
+.DS_Store
+_site/
+.garden-build-*/

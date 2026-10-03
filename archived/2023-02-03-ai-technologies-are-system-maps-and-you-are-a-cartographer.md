@@ -1,19 +1,25 @@
 ---
-title: "Ai Technologies Are System Maps And You Are A Cartographer"
-subtitle: "Mapping a Seaside Village"
-date: 2023-02-03
+title: "AI Technologies are System Maps, and You are a Cartographer"
+subtitle: ""
+date: "2023-02-03"
 original_url: "https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer"
+content_id: "substack/post/113725078"
+authors: ["Nick Vincent"]
+published_at: "2023-02-03T00:00:00.000Z"
+source_updated_at: "2025-01-28T17:45:40.890Z"
+archived_at: "2026-09-25T20:34:02+00:00"
+source_body_sha256: "31de899e426be33e436ebb986cd9ff33004c464a1ca3310ca8e24d948ecd29fd"
 ---
 
-> **Original Substack post:** [https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer](https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer)
+![vincent-guth-NUiQpGnj9rI-unsplash.jpg]
 
-[![vincent-guth-NUiQpGnj9rI-unsplash.jpg](https://substack-post-media.s3.amazonaws.com/public/images/043a6d43-b307-45af-85d7-e8976e6ee0ae_4000x2670.jpeg "vincent-guth-NUiQpGnj9rI-unsplash.jpg")](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F043a6d43-b307-45af-85d7-e8976e6ee0ae_4000x2670.jpeg)
+Much of my work is in pursuit of “[data dignity]”, an idea that stems in part from scholars arguing that we should sometimes think of “[data as labor]”. However, the data as labor comparison often elicits quite a bit of pushback. In this post, I’m going to describe a thought experiment regarding cartography and two seaside villages. My hope is that this story can illustrate some theoretical reasons to be hopeful about the potential for collective bargaining [power] deriving from data, and I hope to paint an optimistic picture of a path towards AI governance. Throughout this thought experiment, I’ll also make references to Nagaraj and Stern’s Journal of Economic Perspectives 2020 article on the [Economics of Maps].
 
-Much of my work is in pursuit of “[data dignity](https://www.radicalxchange.org/concepts/data-dignity/)”, an idea that stems in part from scholars arguing that we should sometimes think of “[data as labor](https://www.aeaweb.org/articles?id=10.1257/pandp.20181003)”. However, the data as labor comparison often elicits quite a bit of pushback. In this post, I’m going to describe a thought experiment regarding cartography and two seaside villages. My hope is that this story can illustrate some theoretical reasons to be hopeful about the potential for collective bargaining [power](https://dl.acm.org/doi/10.1145/3442188.3445885) deriving from data, and I hope to paint an optimistic picture of a path towards AI governance. Throughout this thought experiment, I’ll also make references to Nagaraj and Stern’s Journal of Economic Perspectives 2020 article on the [Economics of Maps](https://www.aeaweb.org/articles?id=10.1257/jep.34.1.196).
+![martellus-copy-2_med_hr.jpeg]
 
-[![martellus-copy-2_med_hr.jpeg](https://substack-post-media.s3.amazonaws.com/public/images/d872fc29-9907-435f-9929-bec2fe212d9a_1440x824.jpeg "martellus-copy-2_med_hr.jpeg")](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd872fc29-9907-435f-9929-bec2fe212d9a_1440x824.jpeg)
+Ultimately, no metaphor for “data as X” is perfect (and there's been some great [critiques] of data labor specifically). The scope of human activities that are “data-generating” is vast, and growing. But the comparison with labor, especially map-making labor can be instructive.
 
-Ultimately, no metaphor for “data as X” is perfect (and there's been some great [critiques](https://digifesto.com/2018/12/06/data-isnt-labor-because-using-search-engines-is-really-easy/) of data labor specifically). The scope of human activities that are “data-generating” is vast, and growing. But the comparison with labor, especially map-making labor can be instructive.
+## Mapping a Seaside Village
 
 Imagine a seaside village, at some point in time well before satellites, Google Maps, or OpenStreetMap. Many of the residents of the village use boats to fish and travel. It is of great value to the town to map out the coast and places where rocks jut upwards. In the early days of the village, the town council hires a few young people to act as cartographers. These freshly minted cartographers set out to boat, swim, dive, and walk, all in service of recording a first map.
 
@@ -41,7 +47,7 @@ I've belabored this example because I believe much of modern AI can be described
 
 Most importantly, it can be insightful to describe many of our “AI Advances” as techniques to conscript more people to spend time mapping various physical and social systems in our world or by finding ways to get existing cartographers (users) to map more things.
 
-I've written at length about the idea that since we all contribute to AI, we have potential [power](https://dl.acm.org/doi/10.1145/3442188.3445885). One common [retort](https://digifesto.com/2018/12/06/data-isnt-labor-because-using-search-engines-is-really-easy/) to this idea (which to be fair, has yet to be tested in the field!) involves arguing that unwitting data generating actions like using a search engine or writing social media posts shouldn't count as labor. I hope that this specific comparison with map-making labor might make the (powerful) analogy more palatable.
+I've written at length about the idea that since we all contribute to AI, we have potential [power]. One common [retort][critiques] to this idea (which to be fair, has yet to be tested in the field!) involves arguing that unwitting data generating actions like using a search engine or writing social media posts shouldn't count as labor. I hope that this specific comparison with map-making labor might make the (powerful) analogy more palatable.
 
 But a second critique is that all this theorizing is in vain, because collective action around data will never be able to make a noticeable impact on large-scale AI systems. Here, I think the extended thought experiment above is useful, because we can think of different systems as falling somewhere on the spectrum between our static, perfectly mapped village and our dynamic island-sprouting village. We could characterize this spectrum in terms of a measure of each region's geological complexity, such as the information entropy of the variables that describe the terrain (or something easy to interpret, like the monthly probability of significant geological activity).
 
@@ -57,6 +63,15 @@ Time is on our side. New islands are sprouting and the old maps will fade; if th
 
 Thanks to Vincent Guth and Daan Huttinga for the seaside photos, found via unsplash.com. The Martellus map photo is from the Nagaraj and Stern paper above, originally from www.myoldmaps.com.
 
-Image credits: \* https://unsplash.com/photos/NUiQpGnj9rI! \* https://unsplash.com/photos/Su27UvdJrgU \* https://www.myoldmaps.com/\_Media/martellus-copy-2\_med\_hr.jpeg
+Image credits: \* https://unsplash.com/photos/NUiQpGnj9rI! \* https://unsplash.com/photos/Su27UvdJrgU \* https://www.myoldmaps.com/\_Media/martellus-copy-2_med_hr.jpeg
 
-[![daan-huttinga-Su27UvdJrgU-unsplash.jpg](https://substack-post-media.s3.amazonaws.com/public/images/bc88f3f3-f75a-4bfa-8120-12e43e311d24_3744x5616.jpeg "daan-huttinga-Su27UvdJrgU-unsplash.jpg")](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc88f3f3-f75a-4bfa-8120-12e43e311d24_3744x5616.jpeg)
+![daan-huttinga-Su27UvdJrgU-unsplash.jpg]
+
+  [vincent-guth-NUiQpGnj9rI-unsplash.jpg]: ../media/ai-technologies-are-system-maps-and-you-are-a-cartographer/dc920454c8d576dd194a.jpg "vincent-guth-NUiQpGnj9rI-unsplash.jpg"
+  [data dignity]: https://www.radicalxchange.org/concepts/data-dignity/
+  [data as labor]: https://www.aeaweb.org/articles?id=10.1257/pandp.20181003
+  [power]: https://dl.acm.org/doi/10.1145/3442188.3445885
+  [Economics of Maps]: https://www.aeaweb.org/articles?id=10.1257/jep.34.1.196
+  [martellus-copy-2_med_hr.jpeg]: ../media/ai-technologies-are-system-maps-and-you-are-a-cartographer/102e0a76a5864d17ea1c.jpg "martellus-copy-2_med_hr.jpeg"
+  [critiques]: https://digifesto.com/2018/12/06/data-isnt-labor-because-using-search-engines-is-really-easy/
+  [daan-huttinga-Su27UvdJrgU-unsplash.jpg]: ../media/ai-technologies-are-system-maps-and-you-are-a-cartographer/a411b961932fbcf44e98.jpg "daan-huttinga-Su27UvdJrgU-unsplash.jpg"

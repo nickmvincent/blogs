@@ -1,19 +1,23 @@
 ---
-title: "Two-Sentence Definition"
+title: "Plural AI Data Alignment"
 subtitle: "Measuring the Alignment of AI Systems Based on their Data Pipelines"
-date: 2023-03-02
+date: "2023-03-02"
 original_url: "https://dataleverage.substack.com/p/measuring-relative-ai-alignment-in-terms-of-data-pipelines"
+content_id: "substack/post/113725076"
+authors: ["Nick Vincent"]
+published_at: "2023-03-02T00:00:00.000Z"
+source_updated_at: "2025-01-28T17:46:17.512Z"
+archived_at: "2026-09-25T20:34:01+00:00"
+source_body_sha256: "145c1035ef025d0a178656217249147f294886711ba5d8a72b1b5e03fc90415c"
 ---
 
-> **Original Substack post:** [https://dataleverage.substack.com/p/measuring-relative-ai-alignment-in-terms-of-data-pipelines](https://dataleverage.substack.com/p/measuring-relative-ai-alignment-in-terms-of-data-pipelines)
+![File:Paul Cézanne - Country House by a River - Google Art Project.jpg]
 
-![File:Paul Cézanne - Country House by a River - Google Art Project.jpg](https://substack-post-media.s3.amazonaws.com/public/images/9007dd6d-95a5-491a-bbc9-01bbde94db09\_480x599.jpeg "File:Paul Cézanne - Country House by a River - Google Art Project.jpg")
+In this post, I propose an approach to score AI systems in terms of how well they align with the interests of different groups, by measuring the ability for data creators to reason about and configure the systems' underlying "data pipelines". This is meant to provide a path towards measuring alignment in a manner that supports [plurality], i.e. these scores can help us predict when AI systems are likely to "facilitate cooperation and flourishing across a diversity of social groups".
 
-In this post, I propose an approach to score AI systems in terms of how well they align with the interests of different groups, by measuring the ability for data creators to reason about and configure the systems' underlying "data pipelines". This is meant to provide a path towards measuring alignment in a manner that supports [plurality](https://www.plurality.institute/), i.e. these scores can help us predict when AI systems are likely to "facilitate cooperation and flourishing across a diversity of social groups".
+This post was primarily inspired by discussions kicked off by OpenAI’s recent blog [post]. It is also informed by my recent participation in [efforts] to further define directions for “AI Safety” research and recent efforts to define and advance [plurality research][plurality].
 
-This post was primarily inspired by discussions kicked off by OpenAI’s recent blog [post](https://openai.com/blog/planning-for-agi-and-beyond). It is also informed by my recent participation in [efforts](https://casmi.northwestern.edu/news/articles/2023/defining-safety-in-artificial-intelligence.html) to further define directions for “AI Safety” research and recent efforts to define and advance [plurality research](https://www.plurality.institute/).
-
-I’ve used the term "AI" in the title because this is the term being used in ongoing discussions, and I think this ship has definitively sailed (full disclosure: I also used the term in my [dissertation](https://arch.library.northwestern.edu/concern/generic_works/jq085k38d?locale=en), so I suppose I’ve already bought in a bit). More specifically, I am talking about computing systems that rely on some combination of distinct datasets for training, evaluation, and/or calibration. The discussion is especially relevant to “generative AI” that produces text and images, like ChatGPT and StableDiffusion, but was originally influenced by earlier work looking at search and recommendation.
+I’ve used the term "AI" in the title because this is the term being used in ongoing discussions, and I think this ship has definitively sailed (full disclosure: I also used the term in my [dissertation], so I suppose I’ve already bought in a bit). More specifically, I am talking about computing systems that rely on some combination of distinct datasets for training, evaluation, and/or calibration. The discussion is especially relevant to “generative AI” that produces text and images, like ChatGPT and StableDiffusion, but was originally influenced by earlier work looking at search and recommendation.
 
 The post will be structured as such: a two sentence definition, followed by a two-paragraph definition with more details, followed by an "FAQ" with even more details (the first version will be an IFAQ, because these are questions I *imagine* might be frequent).
 
@@ -31,6 +35,8 @@ This definition most likely requires a collective approach to data agency — ti
 
 # FAQ
 
+## Are there other hidden assumptions here?
+
 There is an assumption that competing organizations and systems will exist. This definition is not particularly useful in an ecosystem dominated by a single player.
 
 ## Why do we need to solve a governance problem with data contributions? What if people just vote directly on issues of AI Governance, or continue to vote for elected officials who pass legislation?
@@ -39,13 +45,13 @@ This idea is complementary to other mechanisms for AI governance. Indeed, a para
 
 ## How does this idea relate to existing AI Alignment work?
 
-In the blog post, OpenAI links to to their [Alignment page post](https://openai.com/blog/our-approach-to-alignment-research/), which emphasizes the goal of making "artificial general intelligence (AGI) aligned with human values and follow human intent”.
+In the blog post, OpenAI links to to their [Alignment page post], which emphasizes the goal of making "artificial general intelligence (AGI) aligned with human values and follow human intent”.
 
 This line of work includes research directions such as developing new techniques for collecting and using human feedback, training explanatory models that become part of the human evaluation loop, and performing core research on machine learning explainability and robustness.
 
 The definition proposed above also relates to explainability, but the standards for "how explainable" are embedded in what we decide is a reasonable definition for “high-quality information about data flow” and the standards for robustness are embedded in how much additional agency to change data people are given.
 
-Of course, AI Alignment has been tackled by a variety of scholars, see e.g. philosophical [scholarship](https://link.springer.com/article/10.1007/s11023-020-09539-2), [work](https://dl.acm.org/doi/abs/10.1145/3306618.3314250) drawing on computer science and contract law, and [arguments](https://arxiv.org/abs/2109.13916) from machine learning scholars.
+Of course, AI Alignment has been tackled by a variety of scholars, see e.g. philosophical [scholarship], [work] drawing on computer science and contract law, and [arguments] from machine learning scholars.
 
 (These are just a few examples: please let me know if there are additional examples that would be particularly relevant here and/or important to elevate.)
 
@@ -98,3 +104,13 @@ As a second step, we must not only improve our tools, norms, and policies around
 ## Is this meant to solve a specific harmful AI scenario?
 
 No, this definition is abstracted away from specific concerns, which is a weakness. But it is very possible to frame specific harm-reduction research projects in terms of this "plural alignment".
+
+  [File:Paul Cézanne - Country House by a River - Google Art Project.jpg]: ../media/measuring-relative-ai-alignment-in-terms-of-data-pipelines/b9ffeee842b9b8919af3.jpg "File:Paul Cézanne - Country House by a River - Google Art Project.jpg"
+  [plurality]: https://www.plurality.institute/
+  [post]: https://openai.com/blog/planning-for-agi-and-beyond
+  [efforts]: https://casmi.northwestern.edu/news/articles/2023/defining-safety-in-artificial-intelligence.html
+  [dissertation]: https://arch.library.northwestern.edu/concern/generic_works/jq085k38d?locale=en
+  [Alignment page post]: https://openai.com/blog/our-approach-to-alignment-research/
+  [scholarship]: https://link.springer.com/article/10.1007/s11023-020-09539-2
+  [work]: https://dl.acm.org/doi/abs/10.1145/3306618.3314250
+  [arguments]: https://arxiv.org/abs/2109.13916

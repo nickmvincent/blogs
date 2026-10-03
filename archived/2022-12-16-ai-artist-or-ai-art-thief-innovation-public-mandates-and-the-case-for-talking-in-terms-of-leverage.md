@@ -1,18 +1,23 @@
 ---
-title: "Ai Artist Or Ai Art Thief Innovation Public Mandates And The Case For Talking In Terms Of Leverage"
-date: 2022-12-16
+title: "AI Artist or AI Art Thief? Innovation, Public Mandates, and the Case for Talking in Terms of Leverage"
+subtitle: ""
+date: "2022-12-16"
 original_url: "https://dataleverage.substack.com/p/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage"
+content_id: "substack/post/113725073"
+authors: ["Nick Vincent"]
+published_at: "2022-12-16T00:00:00.000Z"
+source_updated_at: "2023-04-11T20:24:04.466Z"
+archived_at: "2026-09-25T20:34:02+00:00"
+source_body_sha256: "6d06dfdb02199ce1871b3ad52cdb42139e58422657ea8286e6f9a6b23ffe8709"
 ---
 
-> **Original Substack post:** [https://dataleverage.substack.com/p/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage](https://dataleverage.substack.com/p/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage)
+![Rembrandt Christ in the Storm on the Lake of Galilee.jpg]
 
-![Rembrandt Christ in the Storm on the Lake of Galilee.jpg](https://substack-post-media.s3.amazonaws.com/public/images/e217b807-4bde-4641-b4c2-9e76aa09411d\_1024x1273.jpeg "Rembrandt Christ in the Storm on the Lake of Galilee.jpg")
+The public debate over AI has seriously heated up in the wake of new advances in the design and deployment of large generative AI models. In particular, artists have [begun] to [protest] the use of models that generate artwork. Meanwhile, software developers and writers seem to be a bit more [split] in [their][] [opinions] on models that generate code or prose (though a developing [lawsuit] suggests a critical faction exists on the code front too).
 
-The public debate over AI has seriously heated up in the wake of new advances in the design and deployment of large generative AI models. In particular, artists have [begun](https://vmst.io/@selzero/109512557990367884) to [protest](https://arstechnica.com/information-technology/2022/12/artstation-artists-stage-mass-protest-against-ai-generated-artwork/) the use of models that generate artwork. Meanwhile, software developers and writers seem to be a bit more [split](https://news.ycombinator.com/item?id=33998112) in [their](https://www.nature.com/articles/d41586-022-04383-z) [opinions](https://www.techtarget.com/searchsoftwarequality/news/252528379/ChatGPT-writes-code-but-wont-replace-developers) on models that generate code or prose (though a developing [lawsuit](https://www.theverge.com/2022/11/8/23446821/microsoft-openai-github-copilot-class-action-lawsuit-ai-copyright-violation-training-data) suggests a critical faction exists on the code front too).
+A major rallying cry in the AI art discussion has been to implicate AI models — and/or AI developers — as [stealing] the art used for training data. When you look at examples of AI art created by specifically referencing an artist’s [name], this accusation seems to carry some weight. Of course, this claim is complicated, as it could be seen as simultaneously making a moral claim and a legal claim about AI art.
 
-A major rallying cry in the AI art discussion has been to implicate AI models — and/or AI developers — as [stealing](https://www.smithsonianmag.com/smart-news/is-popular-photo-app-lensas-ai-stealing-from-artists-180981281/) the art used for training data. When you look at examples of AI art created by specifically referencing an artist’s [name](https://www.technologyreview.com/2022/09/16/1059598/this-artist-is-dominating-ai-generated-art-and-hes-not-happy-about-it/), this accusation seems to carry some weight. Of course, this claim is complicated, as it could be seen as simultaneously making a moral claim and a legal claim about AI art.
-
-On the legal side, it seems like we just don’t have a clear [answer](https://www.oreilly.com/radar/what-does-copyright-say-about-generative-models/) yet. In the short term, it doesn’t seem like agents of the state will be storming the server rooms where generative model weights “live”, but in the long term, who knows (it’s [not](https://techcrunch.com/2021/01/12/ftc-settlement-with-ever-orders-data-and-ais-deleted-after-facial-recognition-pivot) out of the question).
+On the legal side, it seems like we just don’t have a clear [answer] yet. In the short term, it doesn’t seem like agents of the state will be storming the server rooms where generative model weights “live”, but in the long term, who knows (it’s [not] out of the question).
 
 On the moral side, it seems that the grievances have some merit. Proponents of the current “scrape it all” paradigm might argue that if artists didn’t want to contribute to training sets, they should not have put their art online.
 
@@ -22,10 +27,26 @@ Additionally, it's (as far as I know) undisputed that all of the headline-genera
 
 I’d like to argue that a very productive way to side-step the debate on the morality front and to move forward while we wait for updates on the legal front is to ground this discussion firmly in terms of who has *leverage* to impact these models.
 
-We may see a live experiment in this realm very soon: StabilityAI will train a new version of Stable Diffusion that honors opt-out requests from artists (facilitated by [Spawning](https://twitter.com/spawning_/status/1603126330261897217)). HuggingFace will train a new version of [BigCode](https://www.bigcode-project.org/docs/about/the-stack/) that honors opt-out requests from developers. In both cases, we can compare the capabilities with and without opt-out, and if enough people opt-out we’ll expect to see meaningful differences. We’re also seeing a [protest](https://arstechnica.com/information-technology/2022/12/artstation-artists-stage-mass-protest-against-ai-generated-artwork/) on ArtStation, as artists post “No AI” images in hopes of harming future training sets. These can be seen as in-the-wild [“data strikes”](https://dl.acm.org/doi/10.1145/3308558.3313742) and data poisoning (in the case of ArtStation), and they open the door to highly curated opt-in training sets that can be seen as [“conscious data contribution”](https://dl.acm.org/doi/10.1145/3449177).
+We may see a live experiment in this realm very soon: StabilityAI will train a new version of Stable Diffusion that honors opt-out requests from artists (facilitated by [Spawning]). HuggingFace will train a new version of [BigCode] that honors opt-out requests from developers. In both cases, we can compare the capabilities with and without opt-out, and if enough people opt-out we’ll expect to see meaningful differences. We’re also seeing a [protest] on ArtStation, as artists post “No AI” images in hopes of harming future training sets. These can be seen as in-the-wild [“data strikes”] and data poisoning (in the case of ArtStation), and they open the door to highly curated opt-in training sets that can be seen as [“conscious data contribution”].
 
 It’s inevitable that we (speaking broadly) will not all agree on a clear definition of what constitutes "stealing" in the AI context. A leverage-based framing can help align artists, coders, writers, and whoever else is blindsided by the next leap in AI capabilities, *even if individuals disagree on the moral framing*. Furthermore, a leverage framing lends itself to asking falsifiable questions, such “Can a group of size *X* boost or harm the capabilities of model *Y* by some delta *Z*?” This is extremely critical, because it also allows us to ground this debate in empirical claims and to move forward with deliberation and bargaining. Even if one group vehemently opposes the idea that scraping data is stealing and another vehemently opposes the practice of scraping entirely, thinking in terms of who has leverage can help us avoid talking past each other.
 
 For researchers, continuing to find ways to measure the value of training data at the collective scale can be highly effective in advancing these discussions, and is in line with promoting a data-centric approach to AI. Just as we might ask how hyperparameter choices affect system capabilities, we can also ask how system capabilities might change under different conditions of collective action. What can we achieve with a model that has a symbiotic relationship with communities of artists or coders?
 
 On the organizing side, continuing to find ways to opt-out from fueling models you oppose — or opt-in to fueling models you’re excited about — will be of immense value. Each action can be seen as an in-the-wild experiment that can help us figure out how to work towards a better set of power dynamics for the AI ecosystem.
+
+  [Rembrandt Christ in the Storm on the Lake of Galilee.jpg]: ../media/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage/01a4bc323e8b4e0d8a72.jpg "Rembrandt Christ in the Storm on the Lake of Galilee.jpg"
+  [begun]: https://vmst.io/@selzero/109512557990367884
+  [protest]: https://arstechnica.com/information-technology/2022/12/artstation-artists-stage-mass-protest-against-ai-generated-artwork/
+  [split]: https://news.ycombinator.com/item?id=33998112
+  [their]: https://www.nature.com/articles/d41586-022-04383-z
+  [opinions]: https://www.techtarget.com/searchsoftwarequality/news/252528379/ChatGPT-writes-code-but-wont-replace-developers
+  [lawsuit]: https://www.theverge.com/2022/11/8/23446821/microsoft-openai-github-copilot-class-action-lawsuit-ai-copyright-violation-training-data
+  [stealing]: https://www.smithsonianmag.com/smart-news/is-popular-photo-app-lensas-ai-stealing-from-artists-180981281/
+  [name]: https://www.technologyreview.com/2022/09/16/1059598/this-artist-is-dominating-ai-generated-art-and-hes-not-happy-about-it/
+  [answer]: https://www.oreilly.com/radar/what-does-copyright-say-about-generative-models/
+  [not]: https://techcrunch.com/2021/01/12/ftc-settlement-with-ever-orders-data-and-ais-deleted-after-facial-recognition-pivot
+  [Spawning]: https://twitter.com/spawning_/status/1603126330261897217
+  [BigCode]: https://www.bigcode-project.org/docs/about/the-stack/
+  [“data strikes”]: https://dl.acm.org/doi/10.1145/3308558.3313742
+  [“conscious data contribution”]: https://dl.acm.org/doi/10.1145/3449177

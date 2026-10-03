@@ -1,19 +1,23 @@
 ---
-title: "Data Leverage Recap December 2022"
+title: "Data Leverage Recap: December 2022 - April 2023"
 subtitle: "The Last Three Months in Review: What's New and What's Next"
-date: 2023-04-18
+date: "2023-04-18"
 original_url: "https://dataleverage.substack.com/p/data-leverage-recap-december-2022"
+content_id: "substack/post/115502481"
+authors: ["Nick Vincent"]
+published_at: "2023-04-18T17:45:06.549Z"
+source_updated_at: "2025-01-28T17:47:48.989Z"
+archived_at: "2026-09-25T20:34:00+00:00"
+source_body_sha256: "d60ec0b1fbb0b57cde9d3f6b140533b17f2512c8761849da5e505928c1e61693"
 ---
 
-> **Original Substack post:** [https://dataleverage.substack.com/p/data-leverage-recap-december-2022](https://dataleverage.substack.com/p/data-leverage-recap-december-2022)
+![][1]
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/58a3e73f-5147-4fdd-b00e-896b7ce302cb\_2614x2268.jpeg "")
-
-*The waves never stop; photo from [Unsplash contributor Photoholgic](https://unsplash.com/photos/RGvwatYi0-Q).*
+*The waves never stop; photo from [Unsplash contributor Photoholgic].*
 
 This post will be a short review of the blog so far. There’s two goals here: to provide a quick catch up for anyone who’s new to the blog, and to give me a chance to reflect on how these ideas have held up against a barrage of AI product releases, research outputs, and news.
 
-Thanks for reading Data Leverage! Subscribe for free to receive new posts and support my work.
+## **[The Paradox of Reuse, Language Models Edition] (Dec 1, 2022)**
 
 ### Summary
 
@@ -21,11 +25,11 @@ In this post, I discuss the concern that language model applications like ChatGP
 
 ### How the Key Points Hold Up
 
-On March 17th, we got to see some early [evidence](https://twitter.com/DominikGutt/status/1636732846948663298?s=20) for this effect. In the linked Tweet, Dominik Gutt describes a preliminary results showing a negative effect from Large Language Models (LLMs) on Q&A activity.
+On March 17th, we got to see some early [evidence] for this effect. In the linked Tweet, Dominik Gutt describes a preliminary results showing a negative effect from Large Language Models (LLMs) on Q&A activity.
 
-About a week later, a similar [point](https://twitter.com/peternixey/status/1640002493630369792?s=20) was made by an authoritative source: Peter Nixey, a top 2% StackOverflow (SO) contributor, who highlighted the concern that LLMs may prevent users like him from contributing to SO, and “When it comes time to train GPTx it risks drinking from a dry riverbed.”
+About a week later, a similar [point] was made by an authoritative source: Peter Nixey, a top 2% StackOverflow (SO) contributor, who highlighted the concern that LLMs may prevent users like him from contributing to SO, and “When it comes time to train GPTx it risks drinking from a dry riverbed.”
 
-Finally, on April 17th, StackOverflow’s CEO wrote a blog [post](https://meta.stackexchange.com/questions/388401/new-blog-post-from-our-ceo-prashanth-community-is-the-future-of-ai) discussing generative AI. While the post was controversial in the community for alluding to integrating generative AI into the platform, I was excited to see direct references to the importance of SO training data and the potential tragedy of the commons at play here. “AI is built on our collective knowledge, and we must all participate in building its future”.
+Finally, on April 17th, StackOverflow’s CEO wrote a blog [post] discussing generative AI. While the post was controversial in the community for alluding to integrating generative AI into the platform, I was excited to see direct references to the importance of SO training data and the potential tragedy of the commons at play here. “AI is built on our collective knowledge, and we must all participate in building its future”.
 
 ### What’s next
 
@@ -33,7 +37,7 @@ The core argument is this piece (and the similar arguments linked above) rely on
 
 One direction for future work is to use some combination of agent-based modeling and continued empirical investigation to specify the conditions necessary for positive sum outcomes. I’ll definitely be keeping an eye out for more empirical work in this space.
 
-## **[ChatGPT is Awesome and Scary: You Deserve Credit for the Good Parts (and Might Help Fix the Bad Parts)](https://dataleverage.substack.com/p/chatgpt-is-awesome-and-scary-you-deserve-credit) (Dec 4, 2022)**
+## **[ChatGPT is Awesome and Scary: You Deserve Credit for the Good Parts (and Might Help Fix the Bad Parts)] (Dec 4, 2022)**
 
 ### Summary
 
@@ -43,15 +47,15 @@ You and most everyone you know probably helped build the new wave of generative 
 
 The public is still mostly in the dark regarding specific ChatGPT training details. However, the sources highlighted in the original post still hold up; I think this is pretty close to the best guess we can make right now.
 
-OpenAI’s [stance](https://www.theverge.com/2023/3/15/23640180/openai-gpt-4-launch-closed-research-ilya-sutskever-interview) on sharing information about training data going forward suggests it may be hard to do this kind of data documentation in the future. I do think we can still learn a lot about ChatGPT from studying more transparent models and datasets like [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) and [The Pile](https://pile.eleuther.ai/) — I’d be surprised if there are massive deviations in pre-training data collection strategies.
+OpenAI’s [stance] on sharing information about training data going forward suggests it may be hard to do this kind of data documentation in the future. I do think we can still learn a lot about ChatGPT from studying more transparent models and datasets like [LLaMa] and [The Pile] — I’d be surprised if there are massive deviations in pre-training data collection strategies.
 
-I also came across this great [post](https://gist.github.com/veekaybee/6f8885e9906aa9c5408ebe5c7e870698) from Vicki Boykis provides a similar perspective on the ChatGPT training data, as well as info about the model architecture and other details.
+I also came across this great [post][2] from Vicki Boykis provides a similar perspective on the ChatGPT training data, as well as info about the model architecture and other details.
 
 ### What’s Next?
 
 I think there’s a lot of value in learning and sharing as much as we can about the role of data in producing generative AI. Please reach out if you’re interested in collaborating. This will involve hunting down datasheets, advocating for the scientific value of sharing datasheets, and perhaps conducting audits that help us make educated guesses about data usage (e.g., asking ChatGPT a question it can only answer with access to a particular source).
 
-## **[AI Artist or AI Art Thief? Innovation, Public Mandates, and the Case for Talking in Terms of Leverage](https://dataleverage.substack.com/p/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage) (Dec 15, 2022)**
+## **[AI Artist or AI Art Thief? Innovation, Public Mandates, and the Case for Talking in Terms of Leverage] (Dec 15, 2022)**
 
 ### Summary:
 
@@ -65,11 +69,11 @@ I still stand by the value of a leverage-based framing (it’s a pretty big part
 
 ### What’s next
 
-I’m in the process of iterating on a [website](https://www.datalevers.org/) for crowdsourcing and highlighting tools that help you use “data levers”. I’d love your help in improving it!
+I’m in the process of iterating on a [website] for crowdsourcing and highlighting tools that help you use “data levers”. I’d love your help in improving it!
 
-Another angle for making concrete progress on this issue is through the development of Responsible AI Licenses for Data. If you’re interested, consider getting involved in [RAIL](https://www.licenses.ai/blog/2023/1/17/rail-initiative-call-for-participation).
+Another angle for making concrete progress on this issue is through the development of Responsible AI Licenses for Data. If you’re interested, consider getting involved in [RAIL].
 
-## **[AI Technologies are System Maps, and You are a Cartographer](https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer) (Feb 2, 2023)**
+## **[AI Technologies are System Maps, and You are a Cartographer] (Feb 2, 2023)**
 
 ## Summary:
 
@@ -77,7 +81,7 @@ Much of my academic work has been at least partially motivated by an argument fo
 
 ### How the Key Points Hold Up
 
-I’ve been reflecting more on this “Data isn’t labor” [post](https://digifesto.com/2018/12/06/data-isnt-labor-because-using-search-engines-is-really-easy/) from Sebastien Benthell. It makes some compelling arguments against data as labor metaphor in the context of search engines and Google. I think it’s worth discussing the tensions with different data as *X* metaphors.
+I’ve been reflecting more on this “Data isn’t labor” [post][3] from Sebastien Benthell. It makes some compelling arguments against data as labor metaphor in the context of search engines and Google. I think it’s worth discussing the tensions with different data as *X* metaphors.
 
 On the technical side, I haven’t seen anything yet that makes me think that data as cartographic labor is completely lacking in predictive value, or in instrumental value as a rallying cry for collective action.
 
@@ -85,9 +89,9 @@ I do think it’s worth making a distinction between the predictive value of a �
 
 ### What’s next
 
-I believe this remains a ripe conceptual lens for both academic research in the data governance space, and for public-facing arguments about data’s value. I plan to continue developing the idea, and have some work in the oven (stay tuned). The planned [datalevers.org](http://datalevers.org) FAQ may also help here.
+I believe this remains a ripe conceptual lens for both academic research in the data governance space, and for public-facing arguments about data’s value. I plan to continue developing the idea, and have some work in the oven (stay tuned). The planned [datalevers.org] FAQ may also help here.
 
-## [Plural AI Data Alignment](https://dataleverage.substack.com/p/measuring-relative-ai-alignment-in-terms-of-data-pipelines) (Mar 1, 2023)
+## [Plural AI Data Alignment] (Mar 1, 2023)
 
 ### Summary:
 
@@ -105,7 +109,7 @@ An open question I remain unsure about is whether it’s useful to frame this as
 
 I plan to continue developing this definition and trying to find venues and communities that find it useful. I don’t expect any shocking new AI releases to cause me to majorly revise it, but that’s always possible!
 
-## **[Bing Rewards for the AI Age](https://dataleverage.substack.com/p/bing-rewards-for-the-ai-age) (Mar 29, 2023)**
+## **[Bing Rewards for the AI Age] (Mar 29, 2023)**
 
 ### Summary:
 
@@ -117,9 +121,9 @@ This post has been shaken a bit by the waves of news. The costs matter here (eve
 
 Additionally, I started writing this piece after seeing news about Microsoft limiting Bing conversation lengths to inhibit “bad” behavior. It seems this may no longer be an issue, either.
 
-On the other hand, [discussions](https://twitter.com/random_walker/status/1648322180558606338?s=20) about the environmental impacts of AI are heating up, which may actually strengthen the case for a credit based system.
+On the other hand, [discussions] about the environmental impacts of AI are heating up, which may actually strengthen the case for a credit based system.
 
-It’s very promising to see the StackOverflow CEO making [statements](https://stackoverflow.blog/2023/04/17/community-is-the-future-of-ai/) like “If AI models are powerful because they were trained on open source or publicly available code, we want to craft models that reward the users who contribute and keep the knowledge base we all rely on open and growing, ensuring we remain the top destination for knowledge on new technologies in the future.” I believe this suggests this kind of idea is quite plausible.
+It’s very promising to see the StackOverflow CEO making [statements] like “If AI models are powerful because they were trained on open source or publicly available code, we want to craft models that reward the users who contribute and keep the knowledge base we all rely on open and growing, ensuring we remain the top destination for knowledge on new technologies in the future.” I believe this suggests this kind of idea is quite plausible.
 
 ### What’s Next
 
@@ -135,4 +139,24 @@ As you may have already guessed from this very recap, I’m convinced one of the
 
 I also think that once we see a slew of new ways for individuals and groups to engage in data decision-making, via opt-in forms, opt-out forms, and new licenses, we’re really going to see a need for the AI field to engage seriously with collective action and governance research. This won’t just be because it’s the right thing to do, but because with a paradigm of data agency, gaining a new mandate from the public will become a core part of building capable AI systems.
 
-Thanks for reading Data Leverage! Subscribe for free to receive new posts and support my work.
+  [1]: ../media/data-leverage-recap-december-2022/594ac11821cc98551f8e.jpg
+  [Unsplash contributor Photoholgic]: https://unsplash.com/photos/RGvwatYi0-Q
+  [The Paradox of Reuse, Language Models Edition]: https://www.notion.so/Data-Leverage-Recap-December-2022-April-2023-e1faadd001364ca18180995eeadcb223
+  [evidence]: https://twitter.com/DominikGutt/status/1636732846948663298?s=20
+  [point]: https://twitter.com/peternixey/status/1640002493630369792?s=20
+  [post]: https://meta.stackexchange.com/questions/388401/new-blog-post-from-our-ceo-prashanth-community-is-the-future-of-ai
+  [ChatGPT is Awesome and Scary: You Deserve Credit for the Good Parts (and Might Help Fix the Bad Parts)]: https://dataleverage.substack.com/p/chatgpt-is-awesome-and-scary-you-deserve-credit
+  [stance]: https://www.theverge.com/2023/3/15/23640180/openai-gpt-4-launch-closed-research-ilya-sutskever-interview
+  [LLaMa]: https://ai.facebook.com/blog/large-language-model-llama-meta-ai/
+  [The Pile]: https://pile.eleuther.ai/
+  [2]: https://gist.github.com/veekaybee/6f8885e9906aa9c5408ebe5c7e870698
+  [AI Artist or AI Art Thief? Innovation, Public Mandates, and the Case for Talking in Terms of Leverage]: https://dataleverage.substack.com/p/ai-artist-or-ai-art-thief-innovation-public-mandates-and-the-case-for-talking-in-terms-of-leverage
+  [website]: https://www.datalevers.org/
+  [RAIL]: https://www.licenses.ai/blog/2023/1/17/rail-initiative-call-for-participation
+  [AI Technologies are System Maps, and You are a Cartographer]: https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer
+  [3]: https://digifesto.com/2018/12/06/data-isnt-labor-because-using-search-engines-is-really-easy/
+  [datalevers.org]: http://datalevers.org
+  [Plural AI Data Alignment]: https://dataleverage.substack.com/p/measuring-relative-ai-alignment-in-terms-of-data-pipelines
+  [Bing Rewards for the AI Age]: https://dataleverage.substack.com/p/bing-rewards-for-the-ai-age
+  [discussions]: https://twitter.com/random_walker/status/1648322180558606338?s=20
+  [statements]: https://stackoverflow.blog/2023/04/17/community-is-the-future-of-ai/
